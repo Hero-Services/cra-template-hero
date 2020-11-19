@@ -33,7 +33,7 @@
         "semi": [
             "error",
             "always"
-        ]
-    },
-    "react/react-in-jsx-scope": "disabled"
+        ],
+        "react/react-in-jsx-scope": "off"
+    }
 }
