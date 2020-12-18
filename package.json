@@ -1,5 +1,5 @@
 {
-  "name": "@Hero-Services/cra-template-hero",
+  "name": "cra-template-hero",
   "version": "1.0.0",
   "keywords": [
     "react",
@@ -10,10 +10,15 @@
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Hero-Services/cra-template-hero"
   },
   "files": [
     "template",
     "template.json"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest",
+    "access": "public"
+  }
 }
