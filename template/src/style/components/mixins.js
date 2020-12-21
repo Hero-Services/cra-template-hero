@@ -8,8 +8,8 @@ export const flex = (direction, wrap, justify, align) => {
     "flex-wrap": wrap,
     "justify-content": justify,
     "align-items": align
-  }
-}
+  };
+};
 
 // Positioning: z-index
 export const position = {
@@ -19,11 +19,11 @@ export const position = {
   above: 1,
   top: 2,
   peak: 10
-}
+};
 
 export const z = (layer) => {
   return position[layer];
-}
+};
 
 /** USAGE
  ** reference: https://www.sitepoint.com/better-solution-managing-z-index-sass/
