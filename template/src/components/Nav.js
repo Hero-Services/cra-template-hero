@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-router-dom";
 
 // Style
 import styled from "styled-components";
-import { voice } from '../style/components/typography.js';
+import { voice } from "../style/components/typography.js";
 import { 
   pad,
   colors,
   Text,
   List, 
   ListItem
-} from '../style/components/general.js';
+} from "../style/components/general.js";
 
 const Nav = () => {
   return (
@@ -24,8 +24,8 @@ const Nav = () => {
         </ListItem>
       </List>
     </Menu>
-  )
-}
+  );
+};
 
 // Style
 const Menu = styled.nav`
