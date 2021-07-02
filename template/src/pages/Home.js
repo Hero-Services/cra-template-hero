@@ -1,7 +1,7 @@
 import React from "react";
 
 // Style
-import { Page, Title } from "../style/components/general.js";
+import {Page, Title} from "../style/components/general.js";
 
 const Home = () => {
   return (

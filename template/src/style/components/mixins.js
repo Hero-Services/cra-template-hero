@@ -1,15 +1,13 @@
-/** Layout Mixins **/
+/* Layout Mixins */
 
 // Flexbox shortcut
-export const flex = (direction, wrap, justify, align) => {
-  return {
-    "display": "flex",
-    "flex-direction": direction,
-    "flex-wrap": wrap,
-    "justify-content": justify,
-    "align-items": align
-  };
-};
+export const flex = (direction = null, wrap = null, justify = null, align = null) => ({
+  display: "flex",
+  "flex-direction": direction,
+  "flex-wrap": wrap,
+  "justify-content": justify,
+  "align-items": align
+});
 
 // Positioning: z-index
 export const position = {
@@ -21,13 +19,11 @@ export const position = {
   peak: 10
 };
 
-export const z = (layer) => {
-  return position[layer];
-};
+export const z = layer => position[layer];
 
-/** USAGE
- ** reference: https://www.sitepoint.com/better-solution-managing-z-index-sass/
+/* USAGE
+ * reference: https://www.sitepoint.com/better-solution-managing-z-index-sass/
    z-index: z('top');
    or
    z-index: z('modal', 'content');
-**/
+*/

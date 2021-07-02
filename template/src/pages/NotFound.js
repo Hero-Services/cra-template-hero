@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 // Style
-import { Page, Title } from "../style/components/general.js";
+import {Page, Title} from "../style/components/general.js";
 
 const NotFound = () => {
   return (

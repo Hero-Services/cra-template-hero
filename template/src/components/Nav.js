@@ -1,16 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 // Style
 import styled from "styled-components";
-import { voice } from "../style/components/typography.js";
-import { 
-  pad,
-  colors,
-  Text,
-  List, 
-  ListItem
-} from "../style/components/general.js";
+import {voice} from "../style/components/typography.js";
+import {pad, colors, Text, List, ListItem} from "../style/components/general.js";
 
 const Nav = () => {
   return (
@@ -18,9 +12,7 @@ const Nav = () => {
       <Text>FRM/Hero</Text>
       <List>
         <ListItem>
-          <NavLink to="/">
-            Home
-          </NavLink>
+          <NavLink to="/">Home</NavLink>
         </ListItem>
       </List>
     </Menu>
@@ -39,7 +31,7 @@ const Menu = styled.nav`
 
 const NavLink = styled(Link)`
   text-decoration: none;
-  font-size: ${voice.normal}
+  font-size: ${voice.normal};
 `;
 
 export default Nav;

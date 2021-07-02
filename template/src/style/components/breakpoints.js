@@ -9,14 +9,8 @@ export const breakpoint = {
   }
 };
 
-export const bp = (width) => {
-  return `@media (min-width: ${breakpoint.width[width]})`;
-};
+export const bp = width => `@media (min-width: ${breakpoint.width[width]})`;
 
-export const customBp = (width) => {
-  return `@media (min-width: ${width})`;
-};
+export const customBp = width => `@media (min-width: ${width})`;
 
-export const minHeight = (height) => {
-  return `@media (min-height: ${height})`;
-};
+export const minHeight = height => `@media (min-height: ${height})`;
